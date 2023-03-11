@@ -24,7 +24,7 @@ function App() {
       }
     })
 
-    setData(initData);
+    setData(initData); //수정사항 test
   }
 
   useEffect(()=>{
