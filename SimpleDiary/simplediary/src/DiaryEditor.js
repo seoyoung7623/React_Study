@@ -31,7 +31,7 @@ const DiaryAditor = ({onCreate}) => {
 
         onCreate(state.author,state.content,state.emotion);
         //console.log(state);
-        alert('저장성공');
+        alert('저장성공'); 
         setState({
             author:"",
             content:"",
