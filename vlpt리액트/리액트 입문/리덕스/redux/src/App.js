@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import TodosContainer from "./containers/TodosContainer";
+import GridPage from "./components/GridPage";
 
 function App() {
   return (
     <div>
-      <TodosContainer />
+      {/* <TodosContainer /> */}
+      {<GridPage />}
     </div>
   );
 }
